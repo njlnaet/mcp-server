@@ -2,13 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.njlnaet/coderswap-mcp-server",
   "title": "CoderSwap MCP Server",
-  "description": "Autonomous research ingestion and hybrid vector search with intent-aware ranking. Build searchable knowledge bases from AI research summaries directly in Claude Desktop.",
+  "description": "Build searchable AI research knowledge bases with hybrid vector search directly in Claude Desktop.",
   "version": "0.1.2",
   "homepage": "https://coderswap.ai",
   "license": "MIT",
   "repository": {
-    "type": "github",
-    "url": "https://github.com/njlnaet/mcp-server"
+    "url": "https://github.com/njlnaet/mcp-server",
+    "source": "github"
   },
   "authors": [
     {
@@ -36,6 +36,7 @@
   "packages": [
     {
       "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@coderswap/mcp-server",
       "version": "0.1.2",
       "transport": {
