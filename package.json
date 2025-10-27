@@ -35,10 +35,10 @@
   "homepage": "https://coderswap.ai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/coderswap/mcp-server.git"
+    "url": "https://github.com/njlnaet/mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/coderswap/mcp-server/issues"
+    "url": "https://github.com/njlnaet/mcp-server/issues"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
