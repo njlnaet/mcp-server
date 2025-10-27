@@ -1,0 +1,58 @@
+{
+  "name": "@coderswap/mcp-server",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MCP server for Claude Desktop: autonomous research ingestion + hybrid vector search with intent-aware ranking. Build searchable knowledge bases from AI research summaries.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "coderswap-mcp-server": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "mcp_starter_prompt.yaml"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "claude",
+    "claude-desktop",
+    "anthropic",
+    "model-context-protocol",
+    "search",
+    "vector-search",
+    "hybrid-search",
+    "semantic-search",
+    "rag",
+    "retrieval-augmented-generation",
+    "research",
+    "knowledge-base",
+    "ai-research",
+    "embeddings"
+  ],
+  "author": "CoderSwap",
+  "license": "MIT",
+  "homepage": "https://coderswap.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderswap/mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coderswap/mcp-server/issues"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "yaml": "^2.5.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2"
+  }
+}
