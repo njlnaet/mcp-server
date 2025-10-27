@@ -1,5 +1,6 @@
 {
   "name": "@coderswap/mcp-server",
+  "mcpName": "io.github.njlnaet/coderswap-mcp-server",
   "version": "0.1.1",
   "type": "module",
   "description": "MCP server for Claude Desktop: autonomous research ingestion + hybrid vector search with intent-aware ranking. Build searchable knowledge bases from AI research summaries.",
