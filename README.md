@@ -29,17 +29,6 @@ Set the following environment variables before launching the server:
 
 ## Running
 
-### Development (Local Backend)
-
-```bash
-# Set environment variables
-export CODERSWAP_BASE_URL=http://localhost:8000
-export CODERSWAP_API_KEY=cs_dev_nmVDJupuxflYYWd34HiRxbtxONul3hv1_f981
-
-# Run the server
-npm start
-```
-
 ### Claude Desktop Configuration
 
 Update your Claude Desktop config file:
@@ -47,23 +36,6 @@ Update your Claude Desktop config file:
 **macOS/Linux:** `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
-#### Local Development:
-```json
-{
-  "mcpServers": {
-    "coderswap": {
-      "command": "node",
-      "args": ["C:/Users/tayav/CascadeProjects/CoderSwapIO/packages/mcp-server/dist/index.js"],
-      "env": {
-        "CODERSWAP_BASE_URL": "http://localhost:8000",
-        "CODERSWAP_API_KEY": "cs_dev_nmVDJupuxflYYWd34HiRxbtxONul3hv1_f981"
-      }
-    }
-  }
-}
-```
-
-#### Production:
 ```json
 {
   "mcpServers": {
