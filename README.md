@@ -2,6 +2,10 @@
 
 Model Context Protocol (MCP) server that lets Claude (and any MCP-aware agent) stand up a topic-specific knowledge base end-to-end—project creation, ingestion, progress tracking, search validation, and lightweight session notes—without exposing low-level APIs.
 
+<a href="https://glama.ai/mcp/servers/@njlnaet/mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@njlnaet/mcp-server/badge" alt="CoderSwap Server MCP server" />
+</a>
+
 ## Features
 
 - 🚀 Create and list vector-search projects
